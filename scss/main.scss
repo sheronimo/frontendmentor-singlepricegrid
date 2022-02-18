@@ -27,8 +27,11 @@ body {
 
 // Grid
 .grid {
+	max-width: $max-width;
 	display: grid;
 	grid-template-columns: 1fr;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px hsla(218, 22%, 67%, 0.5);
 
 	// Join section
 	.join {
@@ -93,6 +96,7 @@ body {
 			font-weight: 700;
 			border-radius: 5px;
 			margin-top: 1.75rem;
+			box-shadow: 0 10px 30px hsla(0, 0, 0, 0.1);
 		}
 	}
 

@@ -23,6 +23,7 @@ body {
   display: grid;
   place-items: center;
   padding: 6rem 2rem;
+  line-height: 1.5;
 }
 
 .grid {
@@ -30,6 +31,31 @@ body {
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  padding: 0 1.5rem;
+}
+
+.grid .join {
+  background: #fff;
+  padding: 2rem 1.5rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.grid .join-heading {
+  color: #2ab2af;
+  font-size: 1.2rem;
+}
+
+.grid .join-guarantee {
+  font-weight: 700;
+  color: #c0df34;
+  font-size: 0.9rem;
+  margin-top: 1.25rem;
+}
+
+.grid .join-text {
+  color: #98a6bd;
+  font-size: 0.85rem;
+  line-height: 1.7;
+  margin-top: 1rem;
 }
 /*# sourceMappingURL=main.css.map */

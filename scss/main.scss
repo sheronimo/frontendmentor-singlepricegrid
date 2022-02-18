@@ -22,11 +22,38 @@ body {
 	display: grid;
 	place-items: center;
 	padding: 6rem 2rem;
+	line-height: 1.5;
 }
 
 // Grid
 .grid {
 	display: grid;
 	grid-template-columns: 1fr;
-	padding: 0 1.5rem;
+
+	// Join section
+	.join {
+		background: $clr-neutral-white;
+		padding: 2rem 1.5rem;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+
+		&-heading {
+			color: $clr-primary;
+			font-size: 1.2rem;
+		}
+
+		&-guarantee {
+			font-weight: 700;
+			color: $clr-secondary;
+			font-size: 0.9rem;
+			margin-top: 1.25rem;
+		}
+
+		&-text {
+			color: $clr-neutral-blue;
+			font-size: 0.85rem;
+			line-height: 1.7;
+			margin-top: 1rem;
+		}
+	}
 }

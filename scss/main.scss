@@ -114,6 +114,7 @@ body {
 
 		&-list {
 			margin-top: 1rem;
+			line-height: 1.4;
 		}
 
 		&-item {
@@ -122,3 +123,5 @@ body {
 		}
 	}
 }
+
+@import 'media';

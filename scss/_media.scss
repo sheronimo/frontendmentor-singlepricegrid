@@ -1,0 +1,36 @@
+@media (min-width: $breakpoint) {
+	.grid {
+		grid-template-columns: repeat(2, 1fr);
+
+		// Join section
+		.join {
+			grid-column: span 2;
+			padding: 2.3rem 2.5rem;
+
+			&-heading {
+				font-size: 1.5rem;
+			}
+
+			&-guarantee {
+				font-size: 1.1rem;
+			}
+
+			&-text {
+				font-size: 1rem;
+				margin-top: 0.5rem;
+			}
+		}
+
+		// Subscribe section
+		.subscribe {
+			padding: 2.3rem 2.5rem;
+			border-bottom-left-radius: 5px;
+		}
+
+		// Marketing section
+		.marketing {
+			padding: 2.3rem 2.5rem;
+			border-bottom-left-radius: 0;
+		}
+	}
+}

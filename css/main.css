@@ -121,10 +121,40 @@ body {
 
 .grid .marketing-list {
   margin-top: 1rem;
+  line-height: 1.4;
 }
 
 .grid .marketing-item {
   color: #e5eff5;
   font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .grid .join {
+    grid-column: span 2;
+    padding: 2.3rem 2.5rem;
+  }
+  .grid .join-heading {
+    font-size: 1.5rem;
+  }
+  .grid .join-guarantee {
+    font-size: 1.1rem;
+  }
+  .grid .join-text {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  .grid .subscribe {
+    padding: 2.3rem 2.5rem;
+    border-bottom-left-radius: 5px;
+  }
+  .grid .marketing {
+    padding: 2.3rem 2.5rem;
+    border-bottom-left-radius: 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */

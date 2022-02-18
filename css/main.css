@@ -24,4 +24,12 @@ body {
   place-items: center;
   padding: 6rem 2rem;
 }
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  padding: 0 1.5rem;
+}
 /*# sourceMappingURL=main.css.map */

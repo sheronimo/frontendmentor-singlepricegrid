@@ -23,3 +23,10 @@ body {
 	place-items: center;
 	padding: 6rem 2rem;
 }
+
+// Grid
+.grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	padding: 0 1.5rem;
+}

@@ -19,9 +19,19 @@ body {
   background: #e5eff5;
   font-family: "Karla", sans-serif;
   min-height: 100vh;
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 2rem;
   line-height: 1.5;
 }
@@ -127,6 +137,22 @@ body {
 .grid .marketing-item {
   color: #e5eff5;
   font-size: 0.9rem;
+}
+
+.attribution {
+  font-size: 0.75rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.attribution a:hover {
+  color: #2ab2af;
 }
 
 @media (min-width: 768px) {

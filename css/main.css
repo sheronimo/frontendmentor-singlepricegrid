@@ -14,4 +14,14 @@ a {
 ul {
   list-style: none;
 }
+
+body {
+  background: #e5eff5;
+  font-family: "Karla", sans-serif;
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  padding: 6rem 2rem;
+}
 /*# sourceMappingURL=main.css.map */

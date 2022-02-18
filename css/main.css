@@ -58,4 +58,46 @@ body {
   line-height: 1.7;
   margin-top: 1rem;
 }
+
+.grid .subscribe {
+  background: #2ab2af;
+  color: #fff;
+  padding: 1.5rem;
+}
+
+.grid .subscribe-heading {
+  font-size: 1.1rem;
+}
+
+.grid .subscribe-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.grid .subscribe-price .cost {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.grid .subscribe-price .month {
+  color: #e5eff5;
+}
+
+.grid .subscribe .subscribe-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 1;
+  padding: 1rem;
+  background: #c0df34;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-top: 1.75rem;
+}
 /*# sourceMappingURL=main.css.map */

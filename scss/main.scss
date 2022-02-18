@@ -56,4 +56,43 @@ body {
 			margin-top: 1rem;
 		}
 	}
+
+	// Subscribe section
+	.subscribe {
+		background: $clr-primary;
+		color: $clr-neutral-white;
+		padding: 1.5rem;
+
+		&-heading {
+			font-size: 1.1rem;
+		}
+
+		&-price {
+			display: flex;
+			align-items: center;
+			gap: 0.5rem;
+			margin-top: 0.5rem;
+
+			.cost {
+				font-size: 2rem;
+				font-weight: 700;
+			}
+
+			.month {
+				color: $clr-neutral-gray;
+			}
+		}
+
+		.subscribe-btn {
+			display: block;
+			width: 100%;
+			text-align: center;
+			line-height: 1;
+			padding: 1rem;
+			background: $clr-secondary;
+			font-weight: 700;
+			border-radius: 5px;
+			margin-top: 1.75rem;
+		}
+	}
 }

@@ -1,0 +1,15 @@
+// Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+// Max grid container width
+$max-width: 635px;
+
+// Media query breakpoint
+$breakpoint: 768px;
+
+// Colors
+$clr-primary: hsl(179, 62%, 43%);
+$clr-secondary: hsl(71, 73%, 54%);
+
+$clr-neutral-gray: hsl(204, 43%, 93%);
+$clr-neutral-blue: hsl(218, 22%, 67%);

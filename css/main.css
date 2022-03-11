@@ -2,8 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
@@ -19,90 +18,64 @@ body {
   background: #e5eff5;
   font-family: "Karla", sans-serif;
   min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 2rem;
   line-height: 1.5;
 }
 
 .grid {
   max-width: 635px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   border-radius: 5px;
-  -webkit-box-shadow: 0 10px 30px rgba(152, 166, 189, 0.5);
-          box-shadow: 0 10px 30px rgba(152, 166, 189, 0.5);
+  box-shadow: 0 10px 30px rgba(152, 166, 189, 0.5);
 }
-
 .grid .join {
   background: #fff;
   padding: 2rem 1.5rem;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-
 .grid .join-heading {
   color: #2ab2af;
   font-size: 1.2rem;
 }
-
 .grid .join-guarantee {
   font-weight: 700;
   color: #c0df34;
   font-size: 0.9rem;
   margin-top: 1.25rem;
 }
-
 .grid .join-text {
   color: #98a6bd;
   font-size: 0.85rem;
   line-height: 1.7;
   margin-top: 1rem;
 }
-
 .grid .subscribe {
   background: #2ab2af;
   color: #fff;
   padding: 1.5rem;
 }
-
 .grid .subscribe-heading {
   font-size: 1.1rem;
 }
-
 .grid .subscribe-price {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 0.5rem;
   margin-top: 0.5rem;
 }
-
 .grid .subscribe-price .cost {
   font-size: 2rem;
   font-weight: 700;
 }
-
 .grid .subscribe-price .month {
   color: #e5eff5;
 }
-
 .grid .subscribe .subscribe-btn {
   display: block;
   width: 100%;
@@ -113,27 +86,22 @@ body {
   font-weight: 700;
   border-radius: 5px;
   margin-top: 1.75rem;
-  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
-
 .grid .marketing {
   background: #4bbebc;
   padding: 1.5rem 1.5rem;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-
 .grid .marketing-heading {
   font-size: 1.1rem;
   color: #fff;
 }
-
 .grid .marketing-list {
   margin-top: 1rem;
   line-height: 1.4;
 }
-
 .grid .marketing-item {
   color: #e5eff5;
   font-size: 0.9rem;
@@ -147,18 +115,15 @@ body {
 
 .attribution a {
   color: #3e52a3;
-  -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
-
 .attribution a:hover {
   color: #2ab2af;
 }
 
 @media (min-width: 768px) {
   .grid {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .grid .join {
     grid-column: span 2;
@@ -182,5 +147,4 @@ body {
     padding: 2.3rem 2.5rem;
     border-bottom-left-radius: 0;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

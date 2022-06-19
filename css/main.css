@@ -15,7 +15,7 @@ ul {
 }
 
 body {
-  background: #e5eff5;
+  background: hsl(203deg, 44%, 93%);
   font-family: "Karla", sans-serif;
   min-height: 100vh;
   display: flex;
@@ -31,7 +31,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   border-radius: 5px;
-  box-shadow: 0 10px 30px rgba(152, 166, 189, 0.5);
+  box-shadow: 0 10px 30px hsla(218deg, 22%, 67%, 0.5);
 }
 .grid .join {
   background: #fff;
@@ -40,23 +40,23 @@ body {
   border-top-right-radius: 5px;
 }
 .grid .join-heading {
-  color: #2ab2af;
+  color: hsl(179deg, 62%, 43%);
   font-size: 1.2rem;
 }
 .grid .join-guarantee {
   font-weight: 700;
-  color: #c0df34;
+  color: hsl(71deg, 73%, 54%);
   font-size: 0.9rem;
   margin-top: 1.25rem;
 }
 .grid .join-text {
-  color: #98a6bd;
+  color: hsl(218deg, 22%, 67%);
   font-size: 0.85rem;
   line-height: 1.7;
   margin-top: 1rem;
 }
 .grid .subscribe {
-  background: #2ab2af;
+  background: hsl(179deg, 62%, 43%);
   color: #fff;
   padding: 1.5rem;
 }
@@ -74,7 +74,7 @@ body {
   font-weight: 700;
 }
 .grid .subscribe-price .month {
-  color: #e5eff5;
+  color: hsl(203deg, 44%, 93%);
 }
 .grid .subscribe .subscribe-btn {
   display: block;
@@ -82,14 +82,14 @@ body {
   text-align: center;
   line-height: 1;
   padding: 1rem;
-  background: #c0df34;
+  background: hsl(71deg, 73%, 54%);
   font-weight: 700;
   border-radius: 5px;
   margin-top: 1.75rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px hsla(0deg, 0%, 0%, 0.1);
 }
 .grid .marketing {
-  background: #4bbebc;
+  background: hsl(179deg, 47%, 52%);
   padding: 1.5rem 1.5rem;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -103,7 +103,7 @@ body {
   line-height: 1.4;
 }
 .grid .marketing-item {
-  color: #e5eff5;
+  color: hsl(203deg, 44%, 93%);
   font-size: 0.9rem;
 }
 
@@ -114,11 +114,11 @@ body {
 }
 
 .attribution a {
-  color: #3e52a3;
+  color: hsl(228deg, 45%, 44%);
   transition: color 0.3s ease;
 }
 .attribution a:hover {
-  color: #2ab2af;
+  color: hsl(179deg, 62%, 43%);
 }
 
 @media (min-width: 768px) {
